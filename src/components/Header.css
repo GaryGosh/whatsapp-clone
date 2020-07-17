@@ -1,0 +1,44 @@
+.header {
+    background-color: #075E54;
+}
+
+.header__lineOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__lineOne > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    color: white;
+    padding: 0 0 0 9px;
+    margin-bottom: 0;
+}
+
+.header__icons {
+    margin-top: 16px;
+}
+
+.header__icons span {
+    padding-right: 15px;
+    color: white;
+    
+}
+
+.header__lineTwo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header__lineTwo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    color:#128C7E;
+    padding: 9px;
+    margin-bottom: 0;
+}

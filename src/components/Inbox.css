@@ -1,0 +1,29 @@
+.inbox {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(216, 210, 210);
+}
+
+.inbox > img {
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.inbox__messageText {
+    margin-left: 18px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.inbox__messageText > small {
+    color: rgb(133, 128, 128); 
+}
+
+.inbox__time {
+    color: #25d366;
+    font-weight: 500;
+    margin-right: 10px;
+}
